@@ -115,8 +115,8 @@ function Features() {
     <section id="features" className="py-24 border-t border-border/40">
       <div className="mx-auto max-w-7xl px-6">
         <div className="max-w-2xl">
-          <h2 className="text-4xl md:text-5xl font-semibold tracking-tight">Tudo que você precisa para dormir tranquilo.</h2>
-          <p className="mt-4 text-muted-foreground">Recursos pensados para quem quer entender e proteger o próprio dinheiro sem complicação.</p>
+          <h2 className="text-4xl md:text-5xl font-semibold tracking-tight">Tudo que você precisa para organizar seu dinheiro.</h2>
+          <p className="mt-4 text-muted-foreground">Ferramentas simples para entender, planejar e crescer sua vida financeira.</p>
         </div>
         <div className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {items.map(({ icon: Icon, title, desc }) => (
@@ -137,8 +137,8 @@ function Features() {
 function HowItWorks() {
   const steps = [
     { n: "01", t: "Crie sua conta", d: "Cadastro rápido com email e senha. Sem burocracia." },
-    { n: "02", t: "Conecte suas contas", d: "Adicione contas bancárias e cartões com segurança." },
-    { n: "03", t: "Relaxe", d: "O FinGuard cuida do resto, monitorando 24/7." },
+    { n: "02", t: "Registre suas transações", d: "Adicione entradas e saídas conforme acontecem." },
+    { n: "03", t: "Acompanhe e decida", d: "Veja relatórios claros e tome decisões com confiança." },
   ];
   return (
     <section id="how" className="py-24 border-t border-border/40">
@@ -162,7 +162,7 @@ function CTA() {
   return (
     <section id="cta" className="py-24 border-t border-border/40">
       <div className="mx-auto max-w-4xl px-6 text-center">
-        <h2 className="text-4xl md:text-5xl font-semibold tracking-tight">Proteja seu dinheiro hoje.</h2>
+        <h2 className="text-4xl md:text-5xl font-semibold tracking-tight">Organize suas finanças hoje.</h2>
         <p className="mt-4 text-muted-foreground">Sem cartão de crédito. Sem letras miúdas.</p>
         <ul className="mt-8 flex flex-wrap justify-center gap-x-8 gap-y-3 text-sm text-muted-foreground">
           {["Grátis para começar", "Cancele quando quiser", "Suporte humano"].map((t) => (
@@ -184,7 +184,7 @@ function Footer() {
     <footer className="border-t border-border/40 py-10">
       <div className="mx-auto max-w-7xl px-6 flex items-center justify-between text-xs text-muted-foreground">
         <span>© {new Date().getFullYear()} FinGuard</span>
-        <span>Feito com cuidado para sua segurança.</span>
+        <span>Feito com cuidado para sua vida financeira.</span>
       </div>
     </footer>
   );
