@@ -77,10 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "FinGuard protege seu dinheiro com monitoramento em tempo real, alertas de fraude e insights claros sobre seus gastos." },
       { name: "author", content: "FinGuard" },
       { property: "og:title", content: "FinGuard — Proteção financeira inteligente" },
-      { property: "og:description", content: "Monitoramento em tempo real, alertas de fraude e insights claros para o seu dinheiro." },
+      { property: "og:description", content: "FinGuard protege seu dinheiro com monitoramento em tempo real, alertas de fraude e insights claros sobre seus gastos." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "FinGuard — Proteção financeira inteligente" },
+      { name: "twitter:description", content: "FinGuard protege seu dinheiro com monitoramento em tempo real, alertas de fraude e insights claros sobre seus gastos." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/94e0a088-562d-4451-b3b7-9fc32dd5ae76/id-preview-1f653f2c--b272060d-077e-4378-b8dc-8fe1fdd76702.lovable.app-1779657874544.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/94e0a088-562d-4451-b3b7-9fc32dd5ae76/id-preview-1f653f2c--b272060d-077e-4378-b8dc-8fe1fdd76702.lovable.app-1779657874544.png" },
     ],
     links: [
       {
