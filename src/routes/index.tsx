@@ -41,6 +41,9 @@ function Nav() {
           <a href="#cta" className="hover:text-foreground transition-colors">Começar</a>
         </nav>
         <div className="flex items-center gap-2">
+          <Link to="/docs">
+            <Button variant="ghost" size="sm">Documentação</Button>
+          </Link>
           <Link to="/auth">
             <Button variant="ghost" size="sm">Entrar</Button>
           </Link>
