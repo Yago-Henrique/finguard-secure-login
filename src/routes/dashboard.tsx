@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogFooter } from "@/components/ui/dialog";
-import { Shield, LogOut, TrendingUp, TrendingDown, Wallet, Plus, Trash2, Loader2 } from "lucide-react";
+import { Shield, LogOut, TrendingUp, TrendingDown, Wallet, Plus, Trash2, Loader2, BookOpen } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import { useAuth } from "@/hooks/use-auth";
 import { toast } from "sonner";
@@ -100,6 +100,11 @@ function Dashboard() {
           </Link>
           <div className="flex items-center gap-3">
             <span className="hidden sm:inline text-sm text-muted-foreground">{user.email}</span>
+            <Link to="/docs">
+              <Button variant="ghost" size="sm" className="gap-2">
+                <BookOpen className="size-4" /> Documentação
+              </Button>
+            </Link>
             <Button variant="outline" size="sm" onClick={logout} className="gap-2">
               <LogOut className="size-4" /> Sair
             </Button>
